@@ -7,7 +7,7 @@ public class Tank {
 		state = new TankState();
 	}
 
-	void setState(iState newState) {
+	public void setState(iState newState) {
 		state = newState;
 	}
 	
